@@ -1,0 +1,16 @@
+# Ignorar datasets
+data/
+
+# Ignorar notebooks de teste temporários
+teste.ipynb
+
+# Ignorar cache do Jupyter e Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Ignorar ambiente virtual, se for o caso
+.venv/
+env/
