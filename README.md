@@ -1,10 +1,7 @@
-# Desintoxifier 🧼🧠
+# Desintoxifier
 
-Este projeto propõe uma solução inteligente para transformar automaticamente comentários tóxicos em versões neutras, mantendo o significado original. A abordagem combina embeddings semânticos e manipulação vetorial com geração de texto via modelo SONAR da Meta AI.
-
-## 🔍 Problema
-
-A toxicidade em plataformas online (insultos, discurso de ódio, etc.) afeta negativamente as interações. Nosso objetivo é oferecer um método que não apenas detecte, mas também **reescreva comentários tóxicos** de maneira ética e semântica.
+Este projeto se propõe a verificar até onde podemos ir na desintoxicação de comentários online, utilizando técnicas de aprendizado de máquina e processamento de linguagem natural. A ideia é transformar comentários tóxicos em versões mais neutras ou construtivas, mantendo o sentido original.
+- Link para o vídeo de apresentação: [YouTube](https://youtu.be/twnb5KY1bRM)
 
 ## 📊 Dados
 
@@ -27,6 +24,10 @@ python main.py
 
 Você será solicitado a digitar o índice do comentário que deseja desintoxicar.
 
+## 🏁 Exemplo de Uso
+
+Na pasta notebook, você encontrará um arquivo desintoxifier.ipynb que demonstra o uso do pipeline completo, desde a geração de embeddings até a desintoxicação e reconstrução do texto.
+
 ## 📁 Estrutura do Projeto
 
 ```
@@ -39,12 +40,6 @@ desintoxifier_project/
 └── README.md           # Este arquivo
 ```
 
-## 📌 Possíveis Expansões
-
-- Avaliação com métricas BLEU, ROUGE, METEOR
-- Suporte multilíngue (SONAR é multilingue!)
-- Classificadores mais robustos (ex: Transformers supervisionados)
-- Aplicação com dados reais de Twitter, Reddit, etc.
 
 ## 🔗 Referências
 
