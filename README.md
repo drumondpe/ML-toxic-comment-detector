@@ -28,18 +28,6 @@ Você será solicitado a digitar o índice do comentário que deseja desintoxica
 
 Na pasta notebook, você encontrará um arquivo desintoxifier.ipynb que demonstra o uso do pipeline completo, desde a geração de embeddings até a desintoxicação e reconstrução do texto.
 
-## 📁 Estrutura do Projeto
-
-```
-desintoxifier_project/
-├── main.py             # Pipeline principal
-├── embeddings.py       # Geração de embeddings com SONAR
-├── classifier.py       # Cálculo de vetores médios de toxicidade
-├── detoxifier.py       # Aplica vetores de correção
-├── decoder.py          # Reconstrução textual a partir de embedding
-└── README.md           # Este arquivo
-```
-
 
 ## 🔗 Referências
 
